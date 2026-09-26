@@ -89,21 +89,39 @@ tailwind
 
 Skills are directory-based. Copy the skill directory into the project where the agent should use it.
 
-For Claude Code:
+### Claude Code
 
 ```bash
 mkdir -p .claude/skills
 cp -R /path/to/perci-skills/skills/laravel-backend .claude/skills/laravel-backend
 ```
 
-For OpenAI Codex:
+### OpenAI Codex
 
 ```bash
 mkdir -p .agents/skills
 cp -R /path/to/perci-skills/skills/laravel-backend .agents/skills/laravel-backend
 ```
 
-Replace `/path/to/perci-skills` with the local checkout path. The resulting directory must contain `SKILL.md`, `references/`, and `examples/`. To make the skill available across projects, copy it to the corresponding user-level skills directory instead: `~/.claude/skills/laravel-backend` for Claude Code or `$CODEX_HOME/skills/laravel-backend` for Codex.
+After installation, the project contains:
+
+```text
+.claude/
+└── skills/
+    └── laravel-backend/
+        ├── SKILL.md
+        ├── references/
+        └── examples/
+
+.agents/
+└── skills/
+    └── laravel-backend/
+        ├── SKILL.md
+        ├── references/
+        └── examples/
+```
+
+Replace `/path/to/perci-skills` with the local checkout path. The skill remains project-local so each project can use the standards appropriate to its stack and requirements.
 
 ## Design Principles
 
