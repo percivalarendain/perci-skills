@@ -21,7 +21,7 @@ Read only the references relevant to the task:
 
 - Design and boundaries: [architecture](references/architecture.md), [controllers and requests](references/controllers-requests.md), [actions](references/actions.md), [services](references/services.md), [queries](references/queries.md), [models](references/models.md).
 - Data and domain behavior: [database](references/database.md), [migrations](references/migrations.md), [identifiers](references/identifiers.md), [dates and timezones](references/dates-timezones.md), [money](references/money.md), [factories and seeders](references/factories-seeders.md).
-- Security and failure handling: [authorization](references/authorization.md), [exceptions](references/exceptions.md), [configuration](references/configuration.md), [logging](references/logging.md), [files and storage](references/files-storage.md).
+- Security and failure handling: [authorization](references/authorization.md), [rate limiting](references/rate-limiting.md), [exceptions](references/exceptions.md), [configuration](references/configuration.md), [logging](references/logging.md), [files and storage](references/files-storage.md).
 - Async and integrations: [jobs and queues](references/jobs-queues.md), [events and listeners](references/events-listeners.md), [caching](references/caching.md), [commands and scheduler](references/commands-scheduler.md), [notifications and mail](references/notifications-mail.md).
 - HTTP and verification: [API](references/api.md), [testing](references/testing.md).
 - End-to-end shape: [Department CRUD example](examples/department-crud.md).
