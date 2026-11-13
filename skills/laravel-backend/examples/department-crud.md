@@ -212,7 +212,9 @@ final class DepartmentFactory extends Factory
 }
 ```
 
-## Representative Pest feature tests
+## Representative Pest HTTP feature tests
+
+These cover the HTTP boundary. Test meaningful Action behavior directly in its dedicated Action test file as described in the [testing reference](../references/testing.md).
 
 ```php
 it('creates a department', function () {

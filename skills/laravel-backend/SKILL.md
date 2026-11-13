@@ -13,7 +13,7 @@ For a normal write flow, prefer:
 
 `Route → Controller → FormRequest → Policy → Action → Model`
 
-Keep controllers thin, use Laravel-native features, make related writes transactional, and update meaningful tests for behavior changes. Use `config()` in application code; use `env()` only in configuration/bootstrap locations.
+Keep controllers thin, use Laravel-native features, make related writes transactional, and update meaningful tests for behavior changes. For Action changes, read the [testing reference](references/testing.md). Use `config()` in application code; use `env()` only in configuration/bootstrap locations.
 
 ## Load references selectively
 
